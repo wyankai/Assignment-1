@@ -1,21 +1,76 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- background color -->
+    <body style="background-color:#FFF5E9;">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="author" content="">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      
+      .header {
+        text-align: center;
+      }
 
-  <link href="css/style.css" rel="stylesheet">
-</head>
+      .homepageimages {
+        text-align: center;
+        padding: 20 px;
+      }
 
-<body>
+      .psbuttons {
+        text-align: right;
+        padding: 20 px;
+      }
 
-  <p>Hello, world!</p>
+      @media screen and (max-width:576px){
+      .psbuttons{
+        text-align: center;
+      }
+    }
 
-  <script src="js/script.js"></script>
-</body>
+    </style>
 
+  </head>
+
+  <body>
+    <script src="script.js"></script>
+
+
+    <!-- header --> 
+    <div class="header" id="myHeader">
+      <img class="logo" src="Images/Red Velvet Logo.png" alt="logo">
+    </div>
+
+
+    <!-- homepage images -->
+    <div class="homepageimages" >
+      <p><!--Creating space for gap--></p>
+      <img class="image" src="Images/joy.png" alt="ireneimage">
+      <img class="image" src="Images/Yeri.jpg" alt="yeriimage">
+      <img class="image" src="Images/irene.png" alt="seulgiimage">
+      <img class="image" src="Images/seulgi.png" alt="joyimage">
+      <img class="image" src="Images/wendy.png" alt="wendyimage">
+    </div>
+
+    <!-- implementing of buttons -->
+    <div class="psbuttons" >
+      <a href="#" class="button">Profile</a>
+      |
+      <a href="#" class="button">Shop</a>
+    </div>
+
+
+    <!--Notice-->
+    
+
+
+    <!-- footer -->
+    <div class="footer">
+    <p>Footer</p>
+    </div>
+    
+  </body>
+  
 </html>
