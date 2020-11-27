@@ -19,7 +19,6 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 - Alert fans about the latest news of the band
 - Showcases videos of the band
 - Shows the band's schedule
-- 
  
 ### Existing Features
 - Feature 1 - Notice board that show the latest news on the band
@@ -52,8 +51,8 @@ In addition, you should mention in this section how your project looks and works
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
+- The text for notice and album was copied from the [The Official Red Velvet Website](http://redvelvet.smtown.com/)
+- The text for the profile(band) was copied from [kprofiles website](https://kprofiles.com/red-velvet-members-profile/)
 ### Media
 - https://www.soompi.com/article/1370932wpp/red-velvet-ups-excitement-for-comeback-with-eerie-teasers
 
