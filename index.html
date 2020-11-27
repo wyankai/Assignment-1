@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html>
+
+<html class="myFontClass">
+
+</html>
+
   <head>
     <!-- background color -->
     <body style="background-color:#FFF5E9;">
@@ -9,27 +13,6 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <style>
-      
-      .header {
-        text-align: center;
-      }
-
-      .homepageimages {
-        text-align: center;
-        padding: 20 px;
-      }
-
-      .psbuttons {
-        text-align: right;
-        padding: 20 px;
-      }
-
-      @media screen and (max-width:576px){
-      .psbuttons{
-        text-align: center;
-      }
-    }
-
     </style>
 
   </head>
@@ -46,7 +29,8 @@
 
     <!-- homepage images -->
     <div class="homepageimages" >
-      <p><!--Creating space for gap--></p>
+      <p></p>
+      <p></p>
       <img class="image" src="Images/joy.png" alt="ireneimage">
       <img class="image" src="Images/Yeri.jpg" alt="yeriimage">
       <img class="image" src="Images/irene.png" alt="seulgiimage">
@@ -56,20 +40,95 @@
 
     <!-- implementing of buttons -->
     <div class="psbuttons" >
-      <a href="#" class="button">Profile</a>
+      <a href="page2.html" class="buttons">Profile</a>
       |
-      <a href="#" class="button">Shop</a>
+      <a href="https://smglobalshop.com/collections/red-velvet" class="buttons">Shop</a>
+      |
+      <a href="contactus.html" class="buttons">Contact Us</a>
     </div>
+
+
 
 
     <!--Notice-->
-    
+<!--Contents -->
+  <section class="container">
 
+    <div class="flex-item">
+      <div class="title">
+        <h2>Notice</h2>
+      </div>
+      <div class="text">
+        <ol>
+          <li> 2021 SM ARTIST SEASON’S GREETING</li>
+          <li> IRENE & SEULGI ‘MONSTER’ MV released</li>
+          <li> Red Velvet Subgroup Announced </li>
+          <li> Red Velvet X Good Luck Trolls Merchandise Announced </li>
+          <li> Red Velvet ‘Psycho’ MV released </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="flex-item">
+      <div class="title">
+        <h2>Videos</h2>
+      </div>
+      <div class="texta">
+        <iframe width="100%" src="https://www.youtube.com/embed/aDce_GBE8Mg" ></iframe>
+        <iframe width="100%" src="https://www.youtube.com/embed/OdZ_SxX66g8" ></iframe>
+        <iframe width="100%" src="https://www.youtube.com/embed/1cnTDy2MdJw" ></iframe>
+        <iframe width="100%" src="https://www.youtube.com/embed/-Pp4M5dhkKc" ></iframe>
+      </div>
+    </div>
+
+    <div class="flex-item">
+      <div class="title">
+        <h2> Latest Album</h2>
+        <img class="image" src="Images/New Album.jpg" alt="albumimage">
+      </div>
+      <div class="texta">
+        <h4>Red Velvet ‘‘The ReVe Festival’ Finale’</h4>
+        <p>Red Velvet, the spectacular finale of the 2019 music festival! Repackaged album''The ReVe Festival' Finale' released on December 23!</p>
+      </div>
+      <div class="title">
+        <h2> Schedule</h2>
+      </div>
+      <div class="texta">
+        <div class="box">
+          <div class="schedule">
+            <b><p id = "date"></p></b>
+            <script>
+              n =  new Date();
+              y = n.getFullYear();
+              var month = new Array();
+              month[0] = "January";
+              month[1] = "February";
+              month[2] = "March";
+              month[3] = "April";
+              month[4] = "May";
+              month[5] = "June";
+              month[6] = "July";
+              month[7] = "August";
+              month[8] = "September";
+              month[9] = "October";
+              month[10] = "November";
+              month[11] = "December";
+              var m = month[n.getMonth()];
+              d = n.getDate();
+              document.getElementById("date").innerHTML = d + " " + m + " " + y;
+            </script>
+          </div>
+          <div class="info"><p>There is no schedule information.</p></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
 
     <!-- footer -->
-    <div class="footer">
+  <div class="footer">
     <p>Footer</p>
-    </div>
+  </div>
     
   </body>
   
