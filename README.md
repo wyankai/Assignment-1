@@ -8,12 +8,8 @@ The website serves as a platform for fans and potential fans who want to learn m
 The website is for fans and potential fans who want to learn more about the band.
 This website help to provide informations such as the band's profile, schedule, latest album, notice, as well as their latest MVs. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a the crweator of the website, I want to create a platform that can gather all the information on the band in one spot, so that more potential fans or fans can learn more about the group.
+- As a the creator of the website, I want to create a platform that can gather all the information on the band in one spot, so that more potential fans or fans can learn more about the group.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
 ## Features
 - Alert fans about the latest news of the band
@@ -47,8 +43,6 @@ For any scenarios that have not been automated, test the user stories manually a
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 
-
-## Credits
 
 ### Content
 - The text for notice and album was copied from the [The Official Red Velvet Website](http://redvelvet.smtown.com/)
