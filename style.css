@@ -1,0 +1,144 @@
+.myFontClass{
+  font-family : "Segoe UI";
+  color:#707070
+}
+
+.header {
+  text-align: center;
+  position: relative;
+  padding: 3%;
+  width: 94.7%;
+  background: #FFD1D1;
+  color: #FFD1D1;
+}
+
+.logo{
+    position : absolute;
+    top : 43.5%;
+    left:43.5%;
+    width: 10vw;
+  }
+
+
+.homepageimages {
+  text-align: center;
+  padding: 20 px;
+}
+
+.image{
+    width: 18vw;
+    }
+
+.psbuttons{
+    margin: 5px 21px 15px 20px;
+}
+
+a.buttons{
+    border: none;
+    color: darkgray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   }
+
+
+  .psbuttons {
+    text-align: right;
+    padding: 20 px;
+  }
+
+
+  @media screen and (max-width:576px){
+  .psbuttons{
+    text-align: center;
+  }
+  .container{
+    text-align: center;
+    padding-bottom: 10%;
+  }
+  .title{
+    width: 311.75px;
+  }
+}
+
+.container {
+  display: flex;
+  width: 95%;
+  background-color: #FFF5E9;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+.flex-item {
+  padding: 1%;
+  margin: 1%;
+  flex-grow: 1;
+  flex-basis: 15%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  width: 10  ;
+}
+
+.text {
+  margin-bottom: auto;
+}
+
+.texta{
+  text-align: center
+}
+
+.textavideo{
+  justify-content: space-around;
+}
+
+.title {
+  text-align:center;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1%;
+  background-color: #FF8A8A;
+  color: white;
+  text-align: center;
+}
+
+.containera{
+  margin: auto;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  text-align: center;
+  background-color: white;
+  width:93%;
+}
+
+
+p.information{
+  text-align: left;
+}
+
+.backButton{
+  text-align: center;
+  margin:2%;
+  margin-top :auto;
+}
+
+a.button{
+  background-color: #f5b0b0; /* Green */
+  border: none;
+  color: white;
+  border-radius: 7px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
