@@ -4,11 +4,12 @@ This a website that is built for a k-pop band called: Red Velvet.
 The website serves as a platform for fans and potential fans who want to learn more about the band's history and the band members.
  
 ## Design Process
- 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+The website is for fans and potential fans who want to learn more about the band.
+This website help to provide informations such as the band's profile, schedule, latest album, notice, as well as their latest MVs. 
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+- As a the crweator of the website, I want to create a platform that can gather all the information on the band in one spot, so that more potential fans or fans can learn more about the group.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
 These files should themselves either be included as a pdf file in the project itself (in an separate directory)
@@ -21,21 +22,18 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 - 
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Feature 1 - Notice board that show the latest news on the band
+- Feature 2 - Video gallery that showcase their Red Velvet's latest videos
+- Feature 3 - Latest Album showcases the latest album that the group has released
+- Feature 4 - Schedule shows the current date as well as the events that the band have on the day.
+- Feature 5 - Profile page that provide information on the band's history as well as a brief profile of the band's group members.
+- Feature 6 - A contact us page for people to contact us in case we left out important information
+- Feature 7 - Shop button that will redirect the user to the band's official merch store.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- HTML(https://www.w3.org/html/)
+ - The project uses **HTML**
 
 ## Testing
 
@@ -49,9 +47,7 @@ For any scenarios that have not been automated, test the user stories manually a
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
 
