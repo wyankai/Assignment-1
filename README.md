@@ -1,7 +1,7 @@
 # ID Assignment 1
 
-Name: Wee Yan Kai
-Website link:
+Name: Wee Yan Kai.
+Website link:https://wyankai.github.io/Assignment-1/
 
 ## Red Velvet Fan Website
 
