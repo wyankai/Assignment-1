@@ -1,4 +1,10 @@
-# Red Velvet Website
+# ID Assignment 1
+
+Name: Wee Yan Kai
+Website link:
+
+## Red Velvet Fan Website
+
 
 This a website that is built for a k-pop band called: Red Velvet.
 The website serves as a platform for fans and potential fans who want to learn more about the band's history and the band members.
